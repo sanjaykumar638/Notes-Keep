@@ -177,7 +177,7 @@ export default function MenuDrawer({ state, toggleDrawer, changeTheme, route }) 
                 </Link>
             </List>
             <div style={drawerBottom}>
-                <Link href="https://github.com/DivyanshFalodiya/Noter">
+                <Link href="https://github.com/sanjaykumar638/Notes-Keep">
                     <a target='_blank' style={anchor}>
                         <p style={linkStyle} onMouseEnter={()=>{setLinkHover(true)}} onMouseLeave={()=>{setLinkHover(false)}} >Open-Source</p>
                     </a>
